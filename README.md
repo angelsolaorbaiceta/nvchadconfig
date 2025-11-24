@@ -20,3 +20,9 @@ Then clone this repo:
 ```bash
 git clone https://github.com/angelsolaorbaiceta/nvchadconfig ~/.config/nvim
 ```
+
+Open Neovim and install all Mason artefacts:
+
+```bash
+:MasonInstallAll
+```

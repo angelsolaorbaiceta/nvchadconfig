@@ -25,6 +25,7 @@ return {
         "go",
         "javascript",
         "c",
+        "zig",
       },
     },
   },

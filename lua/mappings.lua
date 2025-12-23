@@ -14,5 +14,6 @@ map("n", "<leader>mp", "<cmd>Telescope man_pages<cr>", { desc = "telescope man p
 map("n", "<leader>fr", "<cmd>Telescope registers<cr>", { desc = "telescope registers" })
 map("n", "<leader>gc", "<cmd>Telescope git_commits<CR>", { desc = "telescope git commits" })
 map("n", "<leader>fk", "<cmd>Telescope keymaps<CR>", { desc = "Find keymaps" })
+map("n", "grR", "<cmd>Telescope lsp_references<CR>", { desc = "Find references" })
 
 -- map({ "n", "i", "v" }, "<C-s>", "<cmd> w <cr>")

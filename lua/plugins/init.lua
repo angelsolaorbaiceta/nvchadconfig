@@ -16,6 +16,8 @@ return {
     "nvim-treesitter/nvim-treesitter",
     opts = {
       ensure_installed = {
+        "awk",
+        "bash",
         "vim",
         "lua",
         "vimdoc",

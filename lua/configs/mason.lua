@@ -1,0 +1,9 @@
+local options = {
+  ensure_installed = {
+    -- your existing tools...
+    "awk-language-server",
+    "bash-language-server",
+  },
+}
+
+require("mason").setup(options)

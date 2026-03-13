@@ -14,9 +14,11 @@ return {
 
   {
     "nvim-treesitter/nvim-treesitter",
+    config = function(_, opts)
+      vim.opt.rtp:prepend(vim.fn.stdpath "data" .. "/lazy/nvim-treesitter/runtime")
+    end,
     opts = {
       ensure_installed = {
-        "awk",
         "bash",
         "vim",
         "lua",

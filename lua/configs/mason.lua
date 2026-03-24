@@ -3,6 +3,7 @@ local options = {
     -- your existing tools...
     "awk-language-server",
     "bash-language-server",
+    "clangd",
   },
 }
 
